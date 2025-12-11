@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:textSize="80dp"
+        android:textAlignment="textEnd"
+        android:textStyle="bold"/>
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TableRow>
+            <Button
+                android:id="@+id/sevenBtn"
+                android:text="7"
+                android:layout_column="0"
+                style="@style/Button_Digit" />
+            <Button
+                android:id="@+id/eightBtn"
+                android:text="8"
+                android:layout_column="1"
+                style="@style/Button_Digit"/>
+            <Button
+                android:id="@+id/nineBtn"
+                android:text="9"
+                android:layout_column="2"
+                style="@style/Button_Digit"/>
+            <Button
+                android:id="@+id/multiplyBtn"
+                android:text="*"
+                android:layout_column="3"
+                style="@style/Button_Digit"/>
+        </TableRow>
+        <TableRow>
+            <Button
+                android:id="@+id/fourBtn"
+                android:text="4"
+                android:layout_column="0"
+                style="@style/Button_Digit" />
+            <Button
+                android:id="@+id/fiveBtn"
+                android:text="5"
+                android:layout_column="1"
+                style="@style/Button_Digit"/>
+            <Button
+                android:id="@+id/sixBtn"
+                android:text="6"
+                android:layout_column="2"
+                style="@style/Button_Digit"/>
+            <Button
+                android:id="@+id/devideBtn"
+                android:text="/"
+                android:layout_column="3"
+                style="@style/Button_Digit"/>
+        </TableRow>
+
+        <TableRow>
+            <Button
+                android:id="@+id/oneBtn"
+                android:text="1"
+                android:layout_column="0"
+                style="@style/Button_Digit" />
+            <Button
+                android:id="@+id/twoBtn"
+                android:text="2"
+                android:layout_column="1"
+                style="@style/Button_Digit"/>
+            <Button
+                android:id="@+id/threeBtn"
+                android:text="3"
+                android:layout_column="2"
+                style="@style/Button_Digit"/>
+            <Button
+                android:id="@+id/addBtn"
+                android:text="+"
+                android:layout_column="3"
+                style="@style/Button_Digit"/>
+        </TableRow>
+        <TableRow>
+            <Button
+                android:id="@+id/commaBtn"
+                android:text="."
+                android:layout_column="0"
+                style="@style/Button_Digit" />
+            <Button
+                android:id="@+id/zeroBtn"
+                android:text="0"
+                android:layout_column="1"
+                style="@style/Button_Digit"/>
+            <Button
+                android:id="@+id/equalBtn"
+                android:text="="
+                android:layout_column="2"
+                style="@style/Button_Digit"/>
+            <Button
+                android:id="@+id/substrBtn"
+                android:text="-"
+                android:layout_column="3"
+                style="@style/Button_Digit"/>
+        </TableRow>
+
+    </TableLayout>
+
+</LinearLayout>
